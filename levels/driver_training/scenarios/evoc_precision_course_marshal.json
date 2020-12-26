@@ -1,0 +1,59 @@
+[
+{
+    "name": "Precision EVOC (Gavril Grand Marshal)",
+    "description": "This course consists of many low speed precision driving maneuvers such as the 3 point turn, parallel parking, tight curves, reverse slalom and more! You have 3:00 to complete it but you don't need to rush it.",
+    "previews": ["evoc_precision_course_marshal.jpg"],
+    "type": "race",
+    "authors": "angelo234",
+
+    "difficulty": "90",
+	
+	"vehicles": 
+	{
+        "scenario_player0": 
+		{
+			"driver":
+			{
+				"player": true,
+				"startFocus": true,
+				"required": true,
+				"command": "",
+			},
+			"goal":
+			{
+				"timeLimit":
+				{
+					"maxTime": 180,
+					"waitTime": 0,
+					"msg": "You took too long!"
+				},
+				"damage":
+				{
+					"damageLimit": 100,
+					"msg": "You dented your car!",
+					"purpose": "fail"
+				},
+			},
+			
+		},
+        "*": 
+		{
+			"playerUsable": false,
+            "goal" :
+            {
+                "nomove":
+                {
+                    "msg":"You hit a cone!"
+                }
+            }
+		},
+		
+    },
+	
+    "whiteListActions": ["default_whitelist_scenario" ],
+    "blackListActions": ["default_blacklist_scenario" ],
+	
+    "lapConfig": ["wp1", "wp2", "wp3", "wp4", "wp5", "wp6", "wp7", "wp8", "wp9", "wp10", "wp11", "wp12", "wp13", "wp14", "wp15", "wp15a", "wp16", "wp17", "wp18", "wp19"],
+    "prefabs": ["evoc_precision_course"],
+},
+]

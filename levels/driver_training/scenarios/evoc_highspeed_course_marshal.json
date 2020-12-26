@@ -1,0 +1,47 @@
+[
+{
+    "name": "High Speed EVOC (Gavril Grand Marshal)",
+    "description": "This course consists of slaloms, reverse slaloms, high speed cornering, high speed lane changes and more! You have 3:30 to complete it so you need to be quick and you must stop at all stop signs. In the beginning, get up to 80km/h (50mph) for the lane change. A barrier will appear on one side and avoid it.",
+    "previews": ["evoc_highspeed_course_marshal.jpg"],
+    "type": "race",
+    "authors": "angelo234",
+
+    "difficulty": "90",
+	
+	"vehicles": 
+	{
+        "scenario_player0": 
+		{
+			"driver":
+			{
+				"player": true,
+				"startFocus": true,
+				"required": true,
+				"command": "",
+			},
+			"goal":
+			{
+				"timeLimit":
+				{
+					"maxTime": 210,
+					"waitTime": 0,
+					"msg": "You took too long!"
+				},
+				"damage":
+				{
+					"damageLimit": 100,
+					"msg": "You dented your car!",
+					"purpose": "fail"
+				},
+			},
+			
+		},	
+    },
+	
+    "whiteListActions": ["default_whitelist_scenario" ],
+    "blackListActions": ["default_blacklist_scenario" ],
+	
+    "lapConfig": ["wp1", "wp2", "wp3", "wp4", "wp5", "wp6", "wp7", "wp8", "wp9", "wp10", "wp11", "wp12", "wp13", "wp14", "wp15", "wp16", "wp17", "wp18", "wp18a", "wp19", "wp20", "wp21", "wp22", "wp23", "wp24", "wp25", "wp26", "wp27", "wp28", "wp29", "wp30", "wp31", "wp32", "wp33", "wp34", "wp35", "wp36", "wp37", "wp38", "wp39", "wp40", "wp41", "wp42", "wp43", "wp44", "wp45", "wp46", "wp47", "wp48", "wp49", "wp50", "wp51", "wp52"],
+    "prefabs": ["evoc_highspeed_course"],
+},
+]
