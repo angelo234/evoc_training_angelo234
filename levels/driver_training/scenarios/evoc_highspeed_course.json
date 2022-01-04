@@ -1,17 +1,18 @@
 [
 {
-    "name": "High Speed EVOC (Gavril Grand Marshal)",
-    "description": "This course consists of slaloms, reverse slaloms, high speed cornering, high speed lane changes and more! You have 3:30 to complete it so you need to be quick and you must stop at all stop signs. In the beginning, get up to 80km/h (50mph) for the lane change. A barrier will appear on one side and avoid it.",
-    "previews": ["evoc_highspeed_course_marshal.jpg"],
+    "name": "High Speed EVOC",
+    "description": "This course consists of slaloms, reverse slaloms, high speed cornering, high speed lane changes and more! You have 3:45 to complete it so you need to be quick and you must stop at all stop signs. In the beginning, get up to 80km/h (50mph) for the lane change. A barrier will appear on one side and avoid it.",
+    "previews": ["evoc_highspeed_course.jpg"],
     "type": "race",
     "authors": "angelo234",
-
+		"introType": "selectableVehicle",
     "difficulty": "90",
 	
 	"vehicles": 
 	{
-        "scenario_player0": 
+		"scenario_player0": 
 		{
+			"playerUsable": true
 			"driver":
 			{
 				"player": true,
@@ -23,7 +24,7 @@
 			{
 				"timeLimit":
 				{
-					"maxTime": 210,
+					"maxTime": 225,
 					"waitTime": 0,
 					"msg": "You took too long!"
 				},

@@ -1,9 +1,6 @@
 local M = {}
 
-local playerInstance = 'scenario_player0'
 local helper = require('scenario/scenariohelper')
-
-local wp_num = 0
 
 local lc1_activated = false
 local lc1_speed_checked = false
@@ -20,19 +17,14 @@ local function reset()
 	stop1_flag = false
 	stop2_flag = false
 	
-	wp_num = 0
-	
-	--Reset barrier position (place it underground)
-	local barrier = scenetree.findObject("moving_barrier1")
-	
-	local newPosition = Point3F(297, -98, 0)
-	barrier:setPosition(newPosition)
+	--Reset lane change arrow rotation (place it underground)
+	scenetree.findObject("lc1_sign"):setField('rotation', 0, '0 0 1 270')
 end
 
 local function onRaceStart()
 	reset()
 	
-	helper.flashUiMessage("Get up to 80km/h (50mph) for the lane change. A barrier will appear on one side and avoid it.", 5)
+	helper.flashUiMessage("Get up to 80km/h (50mph) for the lane change. An arrow sign will appear to tell you which lane to swerve to.", 5)
 end
 
 local function getVehicleSpeed()
@@ -102,11 +94,10 @@ local function failOnDir(dir, fail_msg, msg)
 	end
 end
 
-local function onRaceWaypoint(data, goal)
-	--Increment waypoint number
-	wp_num = wp_num + 1
-	
+local function onRaceWaypointReached(data, goal)
 	local wp = data.waypointName
+	
+	print("onRaceWaypointReached")
 	
 	--Tell player to get up to 80 km/h or 50 mph
 	if wp == 'wp1' then
@@ -114,9 +105,7 @@ local function onRaceWaypoint(data, goal)
 	
 	elseif wp == 'wp3' then
 		if lc1_speed_checked == false then
-			local text = "You didn't do the lane change maneuver!"
-			
-			scenario_scenarios.finish({failed = text})
+			scenario_scenarios.finish({failed = "You didn't do the lane change maneuver!"})
 		end
 		
 	elseif wp == 'wp7' then
@@ -142,24 +131,7 @@ local function onRaceWaypoint(data, goal)
 end
 
 local function onBeamNGTrigger(data)
-	if lc1_activated == true and lc1_speed_checked == false then
-		local fail_msg = "You went the wrong way!"
-		
-		if data.triggerName == 'lc1_speed_check' and lc1_speed_checked == false then
-			--If player entered too slowly, fail them
-
-			--20.1 m/s = 72.4 km/h
-			if getVehicleSpeed() < 20.1 then
-				local fail_speed_msg = "Your speed was too slow. You need to be going at least 80 km/h or 50 mph."
-			
-				scenario_scenarios.finish({failed = fail_speed_msg})
-			end
-			
-			lc1_speed_checked = true			
-		end	
-	end
-	
-	if data.triggerName == 'lc1' and lc1_activated == false then
+	if data.triggerName == 'lc1' and not lc1_activated then
 		lc1_activated = true
 		
 		--Randomly choose path to take (0 for left, 1 for right)
@@ -167,43 +139,50 @@ local function onBeamNGTrigger(data)
 		
 		lc1_goleft = rand == 0
 		
-		--Places barrier to block one side
-		
-		local barrier = scenetree.findObject("moving_barrier1")
+		-- Flip arrow sign to point to the side to travel
 		
 		if rand == 0 then
-			--helper.flashUiMessage("LEFT", 2)
-			
-			--Block right side
-			
-			local newPosition = Point3F(289, -98, 34.344)
-			barrier:setPosition(newPosition)
+			-- Point left
+			scenetree.findObject("lc1_sign"):setField('rotation', 0, '0 0 1 180')
 			
 		else
-			--helper.flashUiMessage("RIGHT", 2)
-			
-			--Block left side
-			
-			local newPosition = Point3F(297, -98, 34.344)
-			barrier:setPosition(newPosition)
+			-- Point right
+			scenetree.findObject("lc1_sign"):setField('rotation', 0, '0 0 1 0')
 		end
-		
-		be:reloadStaticCollision(false)
+	end
+	
+	if lc1_activated and not lc1_speed_checked then
+		if data.triggerName == 'lc1_speed_check' then
+			--If player entered too slowly, fail them
 
-	elseif data.triggerName == 'stopsign1_trigger' then
+			--20.1 m/s = 72.4 km/h
+			if getVehicleSpeed() < 20.1 then
+				scenario_scenarios.finish({failed = "Your speed was too slow. You need to be going at least 80 km/h or 50 mph."})
+			end
+			
+			lc1_speed_checked = true			
+		end	
+	end
+	
+	-- Check if player entered correct lane
+	if lc1_speed_checked then
+	
+		if (data.triggerName == 'lc1_trigger_left' and not lc1_goleft) 
+		or (data.triggerName == 'lc1_trigger_right' and lc1_goleft) then
+			scenario_scenarios.finish({failed = "You went the wrong way!"})
+		end
+	end
+
+	if data.triggerName == 'stopsign1_trigger' then
 		--If player didn't stop and went over trigger, fail them
 		if stop1_flag == true then
-			local text = "You didn't stop at the stop sign!"
-		
-			scenario_scenarios.finish({failed = text})
+			scenario_scenarios.finish({failed = "You didn't stop at the stop sign!"})
 		end		
 
 	elseif data.triggerName == 'stopsign2_trigger' then
 		--If player didn't stop and went over trigger, fail them
 		if stop2_flag == true then
-			local text = "You didn't stop at the stop sign!"
-		
-			scenario_scenarios.finish({failed = text})
+			scenario_scenarios.finish({failed = "You didn't stop at the stop sign!"})
 		end		
 	end
 end
@@ -211,6 +190,6 @@ end
 M.onBeamNGTrigger = onBeamNGTrigger
 M.onRaceStart = onRaceStart
 M.onRaceTick = onRaceTick
-M.onRaceWaypoint = onRaceWaypoint
+M.onRaceWaypointReached = onRaceWaypointReached
  
 return M

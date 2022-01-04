@@ -1,6 +1,5 @@
 local M = {}
 
-local playerInstance = 'scenario_player0'
 local helper = require('scenario/scenariohelper')
 
 local wp_num = 0
@@ -17,6 +16,8 @@ end
 
 local function onRaceStart()
 	reset()
+	
+	helper.flashUiMessage("Head over to the right.",  4)
 end
 
 local function getVehicleSpeed()
@@ -79,7 +80,7 @@ local function failOnDir(dir, fail_msg, msg)
 	end
 end
 
-local function onRaceWaypoint(data, goal)
+local function onRaceWaypointReached(data, goal)
 	--Increment waypoint number
 	wp_num = wp_num + 1
 	
@@ -135,11 +136,14 @@ local function onRaceWaypoint(data, goal)
 		
 	elseif wp == 'wp15a' then
 		--If player didn't stop and reached the next waypoint, fail them
-		if stop1_flag == true then
+		if stop1_flag then
 			local text = "You didn't stop at the stop sign!"
 		
 			scenario_scenarios.finish({failed = text})
 		end
+		
+	elseif wp == 'wp16' then
+		helper.flashUiMessage("Reverse back to the start.", 4)
 		
 	elseif wp == 'wp17' or wp == 'wp18' or wp == 'wp19' then
 		failOnDir(180, "You are not driving in reverse!", nil)
@@ -171,6 +175,6 @@ end
 M.onBeamNGTrigger = onBeamNGTrigger
 M.onRaceStart = onRaceStart
 M.onRaceTick = onRaceTick
-M.onRaceWaypoint = onRaceWaypoint
+M.onRaceWaypointReached = onRaceWaypointReached
  
 return M

@@ -5,11 +5,11 @@ $ThisPrefab = new SimGroup() {
       groupPosition = "0 0 0";
 
    new BeamNGVehicle(scenario_player0) {
-      JBeam = "roamer";
+      JBeam = "fullsize";
       color = "1 1 1 1.20000005";
       colorPalette0 = "White";
       colorPalette1 = "White";
-      partConfig = "vehicles/roamer/upgraded_police.pc";
+      partConfig = "vehicles/fullsize/police_upgraded.pc";
       renderDistance = "500";
       renderFade = "0.100000001";
       datablock = "default_vehicle";
@@ -270,7 +270,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -330,7 +330,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -350,7 +350,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -370,7 +370,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -390,7 +390,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -410,7 +410,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -430,7 +430,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -450,7 +450,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -470,7 +470,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -490,7 +490,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -510,7 +510,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -530,7 +530,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -550,7 +550,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -570,7 +570,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -590,7 +590,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -610,7 +610,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -630,7 +630,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -650,7 +650,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -670,7 +670,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -690,7 +690,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -710,7 +710,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -730,7 +730,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -750,7 +750,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -770,7 +770,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -790,7 +790,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -810,7 +810,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -830,7 +830,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -850,7 +850,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -870,7 +870,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -890,7 +890,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -910,7 +910,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -930,7 +930,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -950,7 +950,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -970,7 +970,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -990,7 +990,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1010,7 +1010,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1030,7 +1030,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1050,7 +1050,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1070,7 +1070,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1090,7 +1090,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1110,7 +1110,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1130,7 +1130,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1150,7 +1150,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1170,7 +1170,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1190,7 +1190,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1255,7 +1255,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1275,7 +1275,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1295,7 +1295,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1315,7 +1315,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1335,7 +1335,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1595,7 +1595,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1615,7 +1615,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1635,7 +1635,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1655,7 +1655,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1675,7 +1675,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1695,7 +1695,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1715,7 +1715,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1735,7 +1735,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1755,7 +1755,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1775,7 +1775,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1795,7 +1795,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1815,7 +1815,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1835,7 +1835,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1855,7 +1855,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1875,7 +1875,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1895,7 +1895,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1915,7 +1915,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1935,7 +1935,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1955,7 +1955,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -1975,7 +1975,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2025,7 +2025,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2045,7 +2045,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2065,7 +2065,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2085,7 +2085,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2105,7 +2105,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2125,7 +2125,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2145,7 +2145,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2165,7 +2165,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2185,7 +2185,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2205,7 +2205,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2225,7 +2225,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2245,7 +2245,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2265,7 +2265,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2285,7 +2285,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2305,7 +2305,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2325,7 +2325,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2345,7 +2345,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2365,7 +2365,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2385,7 +2385,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
@@ -2405,7 +2405,7 @@ $ThisPrefab = new SimGroup() {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "/levels/driver_training/art/shapes/race/concrete_road_barrier_a.dae";
+      shapeName = "/levels/driver_training/art/shapes/misc/concrete_road_barrier_a.dae";
       dynamic = "0";
       playAmbient = "1";
       meshCulling = "0";
